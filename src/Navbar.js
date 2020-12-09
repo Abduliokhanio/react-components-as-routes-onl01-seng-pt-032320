@@ -1,7 +1,7 @@
 // src/Navbar.js
 import React from 'react'
 import { NavLink } from 'react-router-dom';
- 
+
 const link = {
   width: '100px',
   padding: '12px',
@@ -10,7 +10,7 @@ const link = {
   textDecoration: 'none',
   color: 'white',
 }
- 
+
 class Navbar extends React.Component {
   render() {
     return (
@@ -46,5 +46,5 @@ class Navbar extends React.Component {
     )
   }
 }
- 
+
 export default Navbar;
